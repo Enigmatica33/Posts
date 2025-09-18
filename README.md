@@ -7,13 +7,13 @@ fastapi, postgres, uvicorn, async sqlalchemy, pydantic, asyncpg, docker
 ```
 ## Запуск (указаны команды для Windows):
 Для запуска проекта у вас должны быть установлены Docker и Docker Compose.
-1. Клонировать репозиторий и перейти в него в командной строке:
+### 1. Клонировать репозиторий и перейти в него в командной строке:
 
 ```
 git clone git@github.com:Enigmatica33/Posts.git
 ``` 
 
-2. Cоздать и активировать виртуальное окружение:
+### 2. Cоздать и активировать виртуальное окружение:
 ```
 python -m venv venv
 ```
@@ -24,12 +24,12 @@ source venv/Scripts/activate
 python -m pip install --upgrade pip
 ```
 
-3. Установить зависимости из файла requirements.txt:
+### 3. Установить зависимости из файла requirements.txt:
 ```
 pip install -r requirements.txt
 ```
-4. Создать файл .env в корневой директории проекта (пример .env.example)
-5. Сборка и запуск проекта:
+### 4. Создать файл .env в корневой директории проекта (пример .env.example)
+### 5. Сборка и запуск проекта:
 ```
 docker compose up --build
 ```
