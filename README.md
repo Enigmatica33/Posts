@@ -16,7 +16,11 @@ git clone git@github.com:Enigmatica33/Posts.git
 2. Cоздать и активировать виртуальное окружение:
 ```
 python -m venv venv
+```
+```
 source venv/Scripts/activate
+```
+```
 python -m pip install --upgrade pip
 ```
 
@@ -37,8 +41,8 @@ docker compose up --build
 
 ## Набор доступных эндпоинтов для API POSTS
 
-```/posts/```	Создание нового поста (POST)
-```/posts/```	Получение списка всех постов (GET)
-```/posts/{post_id}```	Получение одного поста по его id (GET)
-```/posts/{post_id}```	Частичное обновление поста по его id (PATCH)
-```/posts/{post_id}```	Удаление поста по его id (DELETE)
+- ```/posts/```	Создание нового поста (POST)
+- ```/posts/```	Получение списка всех постов (GET)
+- ```/posts/{post_id}```	Получение одного поста по его id (GET)
+- ```/posts/{post_id}```	Частичное обновление поста по его id (PATCH)
+- ```/posts/{post_id}```	Удаление поста по его id (DELETE)
